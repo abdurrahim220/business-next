@@ -35,4 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.subsequent_push.sh
+subsequent_push.sh
