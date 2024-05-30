@@ -1,4 +1,5 @@
 import FeaturesBlocks from "@/components/home/FeaturesBlocks";
+import FeaturesMain from "@/components/home/FeaturesMain";
 import Hero from "@/components/home/hero";
 import { Metadata } from "next";
 import React from "react";
@@ -15,6 +16,7 @@ function Home({}: Props) {
     <>
       <Hero />
       <FeaturesBlocks />
+      <FeaturesMain />
     </>
   );
 }
