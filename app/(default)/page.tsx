@@ -26,7 +26,7 @@ function Home({}: Props) {
       <FeatureGallery />
       <Target />
       <Pricing />
-      <Cta/>
+      <Cta />
     </>
   );
 }

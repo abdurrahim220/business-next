@@ -2,7 +2,7 @@
 
 # Variables
 REPO_PATH="/home/masuma/Desktop/practice/business-blog"  # Path to your local repository location
-COMMIT_MESSAGE="home section complete wiht all component"  # Commit message
+COMMIT_MESSAGE="sign up page added"  # Commit message
 BRANCH="main"  # Branch name
 
 # Change to the repository directory
