@@ -2,7 +2,9 @@ import FeatureGallery from "@/components/home/FeatureGallery";
 import FeaturesBlocks from "@/components/home/FeaturesBlocks";
 import FeaturesFaq from "@/components/home/FeaturesFaq";
 import FeaturesMain from "@/components/home/FeaturesMain";
+import Pricing from "@/components/home/Pricing";
 import Target from "@/components/home/Target";
+import Cta from "@/components/home/cta";
 import Hero from "@/components/home/hero";
 import { Metadata } from "next";
 import React from "react";
@@ -23,6 +25,8 @@ function Home({}: Props) {
       <FeaturesFaq />
       <FeatureGallery />
       <Target />
+      <Pricing />
+      <Cta/>
     </>
   );
 }
