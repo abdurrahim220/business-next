@@ -1,4 +1,5 @@
 import FeaturesBlocks from "@/components/home/FeaturesBlocks";
+import FeaturesFaq from "@/components/home/FeaturesFaq";
 import FeaturesMain from "@/components/home/FeaturesMain";
 import Hero from "@/components/home/hero";
 import { Metadata } from "next";
@@ -17,6 +18,7 @@ function Home({}: Props) {
       <Hero />
       <FeaturesBlocks />
       <FeaturesMain />
+      <FeaturesFaq/>
     </>
   );
 }
