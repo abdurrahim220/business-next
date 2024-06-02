@@ -2,7 +2,7 @@
 
 # Variables
 REPO_PATH="/home/masuma/Desktop/practice/business-blog"  # Path to your local repository location
-COMMIT_MESSAGE="feature section faq added"  # Commit message
+COMMIT_MESSAGE="home feature gallery section added"  # Commit message
 BRANCH="main"  # Branch name
 
 # Change to the repository directory

@@ -1,3 +1,4 @@
+import FeatureGallery from "@/components/home/FeatureGallery";
 import FeaturesBlocks from "@/components/home/FeaturesBlocks";
 import FeaturesFaq from "@/components/home/FeaturesFaq";
 import FeaturesMain from "@/components/home/FeaturesMain";
@@ -18,7 +19,8 @@ function Home({}: Props) {
       <Hero />
       <FeaturesBlocks />
       <FeaturesMain />
-      <FeaturesFaq/>
+      <FeaturesFaq />
+      <FeatureGallery />
     </>
   );
 }
