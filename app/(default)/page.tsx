@@ -2,6 +2,7 @@ import FeatureGallery from "@/components/home/FeatureGallery";
 import FeaturesBlocks from "@/components/home/FeaturesBlocks";
 import FeaturesFaq from "@/components/home/FeaturesFaq";
 import FeaturesMain from "@/components/home/FeaturesMain";
+import Target from "@/components/home/Target";
 import Hero from "@/components/home/hero";
 import { Metadata } from "next";
 import React from "react";
@@ -21,6 +22,7 @@ function Home({}: Props) {
       <FeaturesMain />
       <FeaturesFaq />
       <FeatureGallery />
+      <Target />
     </>
   );
 }
