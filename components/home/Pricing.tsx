@@ -1,4 +1,4 @@
-import PricingTables from "../shared/PricingTables";
+import PricingTables from "../Pricing/PricingTables";
 
 
 export default function Pricing() {
