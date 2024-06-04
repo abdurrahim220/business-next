@@ -1,7 +1,16 @@
-import React from "react";
+import HeroSupport from "@/components/Support/HeroSupport";
+import SupportContent from "@/components/Support/SupportContent";
 
-type Props = {};
+export const metadata = {
+  title: "Business - Support",
+  description: "Page description",
+};
 
-export default function Support({}: Props) {
-  return <div>Support</div>;
+export default function Support() {
+  return (
+    <>
+      <HeroSupport />
+      <SupportContent />
+    </>
+  );
 }
