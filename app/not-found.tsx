@@ -2,6 +2,11 @@ import Link from "next/link";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 
+export const metadata = {
+  title: "404!",
+  description: "Page description",
+};
+
 export default function NotFound() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
